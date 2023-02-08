@@ -23,6 +23,11 @@ li{
     top:0   
 }
 
+.button{
+    text-align: right;
+    line-height: 80px;
+}
+
 .topbar{
     padding-top: 100px;
 }
@@ -67,12 +72,17 @@ li{
 
 .debug .upgrade{
     height: 80px;
-    background-color: rgba(0, 0, 0, 0.5)
+    width: calc(100% - 50px);
+    background-color: rgba(0, 0, 0, 0.5)    
 }
 
 .debug .button a{
     border: 1px solid white;
     text-align: right;
+    border-radius: 25px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
 }
 
 .debug .picture{   
@@ -88,7 +98,7 @@ li{
 .white_square{
     background-color: white;
     height: 40px;
-    width: 200px;
+    width: 25%;
 }
 
 /* utility⁄ */
@@ -123,6 +133,11 @@ li{
     .debug .content{
         width: calc(100% - 200px);
     }
+
+    .debug .upgrade{
+        width: calc(100% - 200px);   
+    }
+    
 }
 
 @media screen and (min-width : 992px){
