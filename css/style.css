@@ -20,12 +20,15 @@ li{
 .upgrade{
     width: 100%;
     position: fixed;
-    top:0
-    
+    top:0   
 }
 
 .topbar{
     padding-top: 100px;
+}
+
+.card_container{
+    margin: 10px;
 }
 /* debug */
 
@@ -72,12 +75,14 @@ li{
     text-align: right;
 }
 
-.debug .picture{
-    width: 150px;
+.debug .picture{   
     height: 150px;
     background-color: lawngreen;
-    margin: 10px;
+   
+}
 
+.debug .card_container{
+    width: calc(50% - 20px);
 }
 
 /* utility⁄ */
