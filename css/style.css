@@ -66,8 +66,7 @@ a .action{
 .bar_time{
     display: inline-block;
     background-color: grey;
-    height: 5px;
-    
+    height: 5px;    
     font-size: 0;
     border-radius: 2px;
 }
@@ -80,6 +79,14 @@ a .action{
 .end{
     width: 40px;
     background-color: #505050;
+}
+
+.start.small{
+    width: 106px;  
+}
+
+.end.small{
+    width: 20px;
 }
 /* debug */
 
