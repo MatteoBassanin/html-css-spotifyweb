@@ -5,7 +5,7 @@
 }
 /* css */
 
-span.hidden, img.hidden{
+span.hidden, img.hidden ,ul.hidden{
     display: none;
 }
 
@@ -15,6 +15,21 @@ main{
 
 li{
     list-style: none;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    margin: 5px;
+}
+
+hr{
+    width: 90%;
+    margin: auto;
+    display: none;
 }
 
 .list_topbar{
@@ -60,17 +75,17 @@ li{
    height: 100%;
 }
 
-.debug .icon{
-    height: 27px;
-    width: 27px;
-    background-color: blueviolet;
-    margin: 10px;
+.icon{
+    color: white;
+    
 }
 
-.debug .app_installer,.debug .user{
-    background-color: blue;
-    height: 27px;
-    width: 27px;
+.icon i{
+    color: white;
+}
+
+.user{
+  
     margin: 10px;
 }
 
@@ -127,6 +142,10 @@ li{
     overflow-y: scroll;
 }
 
+.white_text{
+    color: white;
+}
+
 /* media query */
 
 @media screen and (min-width : 768px){
@@ -139,6 +158,14 @@ li{
         display: inline;
     }
     
+    ul.hidden{
+        display: block;
+    }
+
+    hr{
+        display: block;
+    }
+
     .debug .sidebar{
         width: 200px;
     }
