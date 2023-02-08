@@ -17,6 +17,16 @@ li{
     justify-content: space-around;
 }
 
+.upgrade{
+    width: 100%;
+    position: fixed;
+    top:0
+    
+}
+
+.topbar{
+    padding-top: 100px;
+}
 /* debug */
 
 .debug footer{
@@ -66,6 +76,7 @@ li{
     width: 150px;
     height: 150px;
     background-color: lawngreen;
+    margin: 10px;
 
 }
 
