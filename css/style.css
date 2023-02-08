@@ -5,6 +5,10 @@
 }
 /* css */
 
+span.hidden, img.hidden{
+    display: none;
+}
+
 main{
     height: calc(100vh - 100px);
 }
@@ -126,6 +130,15 @@ li{
 /* media query */
 
 @media screen and (min-width : 768px){
+    
+    img.visible{
+        display: none;
+    }
+    
+    span.hidden,img.hidden{
+        display: inline;
+    }
+    
     .debug .sidebar{
         width: 200px;
     }
