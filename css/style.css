@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.debug footer{
+    background-color: black;
+    height: 100px;
+}
+
+.debug .sidebar{
+    background-color: brown;
+    width: 50px;
+}
+
+.content{
+   background-color: aqua;
+   height: calc(100vh - 100px);
+   width: calc(100% - 50px);
+}
