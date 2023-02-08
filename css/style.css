@@ -85,6 +85,12 @@ li{
     width: calc(50% - 20px);
 }
 
+.white_square{
+    background-color: white;
+    height: 40px;
+    width: 200px;
+}
+
 /* utility⁄ */
 
 .d_flex{
@@ -93,6 +99,14 @@ li{
 
 .flex_wrap{
     flex-wrap: wrap;
+}
+
+.space_between{
+    justify-content: space-between;
+}
+
+.align_center{
+    align-items: center;
 }
 
 .overflow{
