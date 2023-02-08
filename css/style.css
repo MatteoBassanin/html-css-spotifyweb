@@ -9,7 +9,13 @@ main{
     height: calc(100vh - 100px);
 }
 
+li{
+    list-style: none;
+}
 
+.list_topbar{
+    justify-content: space-around;
+}
 
 /* debug */
 
@@ -46,8 +52,45 @@ main{
     margin: 10px;
 }
 
+.debug .upgrade{
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.debug .button a{
+    border: 1px solid white;
+    text-align: right;
+}
+
+.debug .picture{
+    width: 150px;
+    height: 150px;
+    background-color: lawngreen;
+
+}
+
 /* utility⁄ */
 
 .d_flex{
     display: flex;
+}
+
+.flex_wrap{
+    flex-wrap: wrap;
+}
+
+.overflow{
+    overflow-y: scroll;
+}
+
+/* media query */
+
+@media screen and (min-width : 768px){
+    .debug .sidebar{
+        width: 200px;
+    }
+
+    .debug .content{
+        width: calc(100% - 200px);
+    }
 }
