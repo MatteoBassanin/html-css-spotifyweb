@@ -3,7 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* css */
 
+main{
+    height: calc(100vh - 100px);
+}
+
+
+
+/* debug */
 
 .debug footer{
     background-color: rgb(26, 25, 25);
@@ -14,18 +22,29 @@
     background-color: brown;
     width: 50px;
     height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-main{
-    height: calc(100vh - 100px);
-}
-
-.content{
+.debug .content{
    background-color: aqua;
    width: calc(100% - 50px);
    height: 100%;
 }
 
+.debug .icon{
+    height: 27px;
+    width: 27px;
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+.debug .app_installer,.debug .user{
+    background-color: blue;
+    height: 27px;
+    width: 27px;
+    margin: 10px;
+}
 
 /* utility⁄ */
 
