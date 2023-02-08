@@ -54,6 +54,33 @@ hr{
 .card_container{
     margin: 10px;
 }
+
+.left_footer img{
+    width: 43px;
+}
+
+a .action{
+    color: black;
+}
+
+.bar_time{
+    display: inline-block;
+    background-color: grey;
+    height: 5px;
+    
+    font-size: 0;
+    border-radius: 2px;
+}
+
+.start{
+    width: 130px;
+    background-color: #B9B9B9;
+}
+
+.end{
+    width: 40px;
+    background-color: #505050;
+}
 /* debug */
 
 .debug footer{
@@ -115,7 +142,7 @@ hr{
 }
 
 .white_square{
-    background-color: white;
+    background-color: rgb(153, 52, 52);
     height: 40px;
     width: 25%;
 }
