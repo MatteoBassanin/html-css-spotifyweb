@@ -71,7 +71,11 @@ a .action{
     border-radius: 2px;
 }
 
-.start{
+.time_bar_small{
+    width: 100%;
+}
+
+/* .start{
     width: 130px;
     background-color: #B9B9B9;
 }
@@ -87,6 +91,24 @@ a .action{
 
 .end.small{
     width: 20px;
+} */
+
+.start{
+    width: 70%;
+    background-color: #B9B9B9;
+}
+
+.end{
+    width: 20%;
+    background-color: #505050;
+}
+
+.start.small{
+    width: 70%;  
+}
+
+.end.small{
+    width: 20%;
 }
 
 .card img{
