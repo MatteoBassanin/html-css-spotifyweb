@@ -134,9 +134,21 @@ hr{
     font-size: 30px;
 }
 
+/* prova */
+
+.right_footer{
+    max-width: 230px;
+}
+
+/* prova */
+
 /* a .action{
     color: black;
 } */
+
+.bar_time.start {
+    text-align: left;
+}
 
 .bar_time{
     display: inline-block;
@@ -185,12 +197,11 @@ li.top_link {
 .end{
     width: 20%;
     background-color: #505050;
-    margin-right: 205px;
 }
 
-.start.small{
-    width: 70%;  
-}
+/* .start.small{
+    width: 120px;  
+} */
 
 .end.small{
     width: 20%;
@@ -319,6 +330,10 @@ li.top_link {
 
 .line_height_thirty{
     line-height: 30px;
+}
+
+.relative{
+    position: relative;
 }
 
 /* media query */
