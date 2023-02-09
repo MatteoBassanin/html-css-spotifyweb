@@ -154,10 +154,24 @@ a .action{
     width: 25%;
 }
 
+.top_list{
+    min-height: 360px;
+}
+
+.bot_list{
+    background-color: aqua;
+    height: 100px;
+}
+
 /* utility⁄ */
 
 .d_flex{
     display: flex;
+}
+
+.d_flex_column{
+    display:flex;
+    flex-direction: column;
 }
 
 .flex_wrap{
@@ -174,6 +188,10 @@ a .action{
 
 .overflow{
     overflow-y: scroll;
+}
+
+.overflow_hidden{
+    overflow-y: hidden;
 }
 
 .white_text{
