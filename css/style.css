@@ -126,6 +126,14 @@ hr{
     width: 43px;
 }
 
+.left_footer{
+    color: #7A7A7A;
+}
+
+.play{
+    font-size: 30px;
+}
+
 /* a .action{
     color: black;
 } */
@@ -254,7 +262,6 @@ li.top_link {
 
 .container_small{
     background-color: rgb(153, 52, 52);
-    height: 40px;
     width: 30%;
 }
 
@@ -308,6 +315,10 @@ li.top_link {
 .rounded{
     object-fit: contain;
     border-radius: 50%;
+}
+
+.line_height_thirty{
+    line-height: 30px;
 }
 
 /* media query */
