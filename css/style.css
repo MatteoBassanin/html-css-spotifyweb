@@ -13,12 +13,17 @@ span.hidden, img.hidden ,ul.hidden{
     display: none;
 }
 
+aside.sidebar{
+    padding-left: 15px;
+}
+
 main{
     height: calc(100vh - 85px);
 }
 
 li{
     list-style: none;
+    margin: 5px 0;
 }
 
 li a{
@@ -36,12 +41,12 @@ li a{
 
 .sidebar img{
     height: 20px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
-.img_user img{
+/* .img_user img{
     margin-left: 5px;
-}
+} */
 
 .user img{
     background-color: grey;
@@ -61,9 +66,9 @@ li a{
     color: #999999;
 }
 
-.list_playlist,.little_text,.user_little{
+/* .list_playlist,.little_text,.user_little{
     margin-left: 10px;
-}
+} */
 
 .genre{
     margin: 5px 0 ;
@@ -77,13 +82,13 @@ h2{
     font-size: 12px;
 }
 
-.name_playlist{
+/* .name_playlist{
     margin: 10px;
-}
+} */
 
-li{
+/* li{
     margin: 5px;
-}
+} */
 
 hr{
     width: 85%;
@@ -108,6 +113,7 @@ hr{
 .button{
     text-align: right;
     line-height: 80px;
+    padding-right: 15px;
 }
 
 .topbar{
@@ -136,9 +142,9 @@ hr{
 
 /* prova */
 
-.right_footer{
+/* .right_footer{
     max-width: 230px;
-}
+} */
 
 /* prova */
 
@@ -240,10 +246,10 @@ li.top_link {
     color: white;
 }
 
-.user{
+/* .user{
   
     margin: 10px 8px;
-}
+} */
 
 .debug .upgrade{
     height: 80px;
