@@ -26,12 +26,30 @@ li a{
     text-decoration: none;
 }
 
+.plus_square{
+    font-size: 40px;
+}
+
+.create_playlist{
+    vertical-align: super;
+}
+
 .sidebar img{
     height: 20px;
 }
 
+.user img{
+    background-color: grey;
+    border-radius: 50%;
+    padding: 1px;
+}
+
 .list_topbar li a ,.artist{
     color: #686A6F;
+}
+
+.list_playlist li a,.create_playlist{
+    color: #999999;
 }
 
 .genre{
@@ -257,6 +275,8 @@ li.top_link {
 .white_text{
     color: white;
 }
+
+
 
 /* media query */
 
