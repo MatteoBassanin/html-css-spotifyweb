@@ -36,6 +36,11 @@ li a{
 
 .sidebar img{
     height: 20px;
+    margin-left: 10px;
+}
+
+.img_user img{
+    margin-left: 5px;
 }
 
 .user img{
@@ -48,8 +53,12 @@ li a{
     color: #686A6F;
 }
 
-.list_playlist li a,.create_playlist{
+.list_playlist li a,.create_playlist,.little_text{
     color: #999999;
+}
+
+.list_playlist,.little_text,.user_little{
+    margin-left: 10px;
 }
 
 .genre{
@@ -64,14 +73,21 @@ h2{
     font-size: 12px;
 }
 
+.name_playlist{
+    margin: 10px;
+}
+
 li{
     margin: 5px;
 }
 
 hr{
-    width: 90%;
+    width: 85%;
     margin: auto;
     display: none;
+    background-color: #999999;
+    border: 0;
+    height: 1px;
 }
 
 .list_topbar{
@@ -198,7 +214,7 @@ li.top_link {
 
 .user{
   
-    margin: 10px;
+    margin: 10px 8px;
 }
 
 .debug .upgrade{
