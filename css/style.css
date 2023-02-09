@@ -88,6 +88,10 @@ a .action{
 .end.small{
     width: 20px;
 }
+
+.card img{
+    width: 100%;
+}
 /* debug */
 
 .debug footer{
