@@ -5,6 +5,10 @@
 }
 /* css */
 
+body{
+    font-family: sans-serif;
+}
+
 span.hidden, img.hidden ,ul.hidden{
     display: none;
 }
@@ -22,6 +26,22 @@ li a{
     text-decoration: none;
 }
 
+.list_topbar li a ,.artist{
+    color: #686A6F;
+}
+
+.genre{
+    margin: 5px 0 ;
+}
+
+h2{
+    margin: 10px;
+}
+
+.artist{
+    font-size: 12px;
+}
+
 li{
     margin: 5px;
 }
@@ -34,6 +54,7 @@ hr{
 
 .list_topbar{
     justify-content: center;
+    line-height: 30px;
 }
 
 .upgrade{
@@ -55,6 +76,10 @@ hr{
     margin: 10px;
 }
 
+.card{
+    text-align: center;
+}
+
 .left_footer img{
     width: 43px;
 }
@@ -73,6 +98,11 @@ a .action{
 
 .time_bar_small{
     width: 100%;
+}
+
+li.top_link {
+    padding: 5px;
+    font-size: 14px;
 }
 
 /* .start{
@@ -130,7 +160,7 @@ a .action{
 }
 
 .debug .content{
-   background-color: darkgoldenrod;
+   background-color: #14181F;
    width: calc(100% - 50px);
    height: 100%;
 }
@@ -159,9 +189,10 @@ a .action{
     border: 1px solid white;
     text-align: right;
     border-radius: 25px;
-    padding: 5px;
+    padding: 10px 30px;
     text-decoration: none;
     color: white;
+    font-size: 14px;
 }
 
 .debug .picture{   
