@@ -283,6 +283,11 @@ li.top_link {
     display: block;
 }
 
+.action.play:hover{
+    transform: scale(1.5);
+}
+
+
 /* debug */
 
 
