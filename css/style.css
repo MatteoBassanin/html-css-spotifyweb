@@ -13,9 +13,6 @@ span.hidden, img.hidden ,ul.hidden{
     display: none;
 }
 
-/* aside.sidebar{
-    padding-left: 15px;
-} */
 
 .top_list_icon,.list_playlist,.bot_list{
     padding-left: 15px;
@@ -34,6 +31,10 @@ li{
     margin: 5px 0;
 }
 
+span.hidden {
+    color: #999;
+}
+
 li a{
     color: white;
     text-decoration: none;
@@ -48,8 +49,7 @@ li a{
 }
 
 .sidebar img{
-    height: 20px;
-    /* margin-left: 10px; */
+    height: 20px;   
 }
 
 /* .img_user img{
@@ -74,9 +74,6 @@ li a{
     color: #999999;
 }
 
-/* .list_playlist,.little_text,.user_little{
-    margin-left: 10px;
-} */
 
 .genre{
     margin: 5px 0 ;
@@ -90,13 +87,6 @@ h2{
     font-size: 12px;
 }
 
-/* .name_playlist{
-    margin: 10px;
-} */
-
-/* li{
-    margin: 5px;
-} */
 
 hr{
     width: 85%;
@@ -146,18 +136,6 @@ hr{
     font-size: 30px;
 }
 
-/* prova */
-
-/* .right_footer{
-    max-width: 230px;
-} */
-
-/* prova */
-
-/* a .action{
-    color: black;
-} */
-
 .bar_time.start {
     text-align: left;
 }
@@ -189,23 +167,6 @@ li.top_link {
     line-height: 50px;
 }
 
-/* .start{
-    width: 130px;
-    background-color: #B9B9B9;
-}
-
-.end{
-    width: 40px;
-    background-color: #505050;
-}
-
-.start.small{
-    width: 106px;  
-}
-
-.end.small{
-    width: 20px;
-} */
 
 .start_time,.end_time{
     font-size: 12px;
@@ -286,8 +247,15 @@ li.top_link {
 }
 
 .button:hover{
-    transform: scale(1.2);
-    
+    transform: scale(1.2);   
+}
+
+.hover_effect:hover{
+    color: white;
+}
+
+.underline:hover{
+    text-decoration: underline;
 }
 /* debug */
 
@@ -352,12 +320,10 @@ footer{
 }
 
 .container_small{
-    background-color: rgb(153, 52, 52);
     width: 40%;
 }
 
-.container_small_side{
-    background-color: rgb(153, 52, 52);
+.container_small_side{   
     width: 20%;
 }
 
