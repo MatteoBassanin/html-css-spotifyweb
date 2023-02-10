@@ -411,6 +411,11 @@ footer{
         right: 5px;
     }
 
+
+    img.hidden.logo_big{
+        height: 40px;
+    }
+
     span.hidden,img.hidden{
         display: inline;
     }
