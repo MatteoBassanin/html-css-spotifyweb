@@ -121,7 +121,7 @@ hr{
 .button{
     text-align: right;
     line-height: 80px;
-    padding-right: 15px;
+    padding-right: 25px;
 }
 
 .topbar{
@@ -287,7 +287,10 @@ li.top_link {
     transform: scale(1.5);
 }
 
-
+.button:hover{
+    transform: scale(1.2);
+    
+}
 /* debug */
 
 
