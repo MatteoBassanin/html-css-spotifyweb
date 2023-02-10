@@ -132,6 +132,7 @@ hr{
 
 .left_footer img{
     width: 50px;
+    padding-left: 10px;
 }
 
 .left_footer{
@@ -265,6 +266,7 @@ u{
 footer{
     background-color: rgb(26, 25, 25);
     height: 85px;
+    font-size: 12px;
 }
 
 .sidebar{
@@ -385,6 +387,12 @@ footer{
 .space_around{
     justify-content: space-around;
 }
+
+.pdg_five{
+    padding-left: 10px;
+}
+
+
 
 /* media query */
 
