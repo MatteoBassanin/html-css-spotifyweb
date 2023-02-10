@@ -13,8 +13,16 @@ span.hidden, img.hidden ,ul.hidden{
     display: none;
 }
 
-aside.sidebar{
+/* aside.sidebar{
     padding-left: 15px;
+} */
+
+.top_list_icon,.list_playlist,.bot_list{
+    padding-left: 15px;
+}
+
+.home_icon{
+    border-left: 5px solid green;
 }
 
 main{
