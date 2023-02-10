@@ -28,11 +28,15 @@ main{
 
 li{
     list-style: none;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 span.hidden {
     color: #999;
+}
+
+aside{
+    font-size: 14px;
 }
 
 li a{
@@ -151,7 +155,7 @@ hr{
 .time_bar_small{
     width: 100%;
     align-self: flex-end;
-    padding-bottom: 8px;
+    padding-bottom: 13px;
 }
 
 li.top_link {
@@ -174,12 +178,12 @@ li.top_link {
 
 .start{
     width: 70%;
-    background-color: #B9B9B9;
+    background-color: #505050;
 }
-
 .end{
     width: 20%;
-    background-color: #505050;
+   
+    background-color: #B9B9B9;
 }
 
 u{    text-decoration: underline green 3px;
