@@ -119,9 +119,7 @@ hr{
 }
 
 .button{
-    text-align: right;
-    line-height: 80px;
-    padding-right: 25px;
+    padding-right: 35px;
 }
 
 .topbar{
@@ -336,7 +334,6 @@ footer{
 
 .button a{
     border: 1px solid white;
-    text-align: right;
     border-radius: 25px;
     padding: 10px 30px;
     text-decoration: none;
@@ -394,6 +391,10 @@ footer{
 
 .align_center{
     align-items: center;
+}
+
+.flex_end{
+    justify-content: flex-end;
 }
 
 .overflow{
