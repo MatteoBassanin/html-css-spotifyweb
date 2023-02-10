@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>spotify</title>
 </head>
-<body class="debug">
+<body>
 
     <main class="d_flex overflow_hidden">
 
@@ -68,9 +68,10 @@
                     <ul class="d_flex flex_wrap">
                         <li class="card_container">
                             <div class="card">
-                                
-                                <img src="img/metal_lifting.jpg" alt="metal album"/>
-                                
+                                <div class="card_wrapper relative">
+                                    <i class="fa-regular fa-circle-play hidden_play"></i>
+                                    <img src="img/metal_lifting.jpg" alt="metal album"/>                                   
+                                </div>
                                 <div class="genre"> Heavy metal</div>
                                 <div class="artist">Subtitle</div>
                             </div>
@@ -198,21 +199,21 @@
     </main>
 
     <footer class="d_flex flex_wrap space_between align_center">
-        <div class="left_footer container_small d_flex space_between">
+        <div class="left_footer container_small_side d_flex space_between">
             <img src="img/sinister.jpeg" alt="sinister"/>
             <div class="container_name_in_play">
                 <div class="author_in_play white_text">Sinister</div>
                 <div class="song_in_play">Brano nome</div>
             </div>
             <div class="save">
-                <div class="little_icon"><i class="fa-regular fa-heart"></i></div>
-                <div class="little_icon"><i class="fa-regular fa-folder"></i></div>
+                <i class="fa-regular fa-heart little_icon"></i>
+                <i class="fa-regular fa-folder little_icon"></i>
             </div>
         </div>
 
         <div class="mid_footer container_small">
             <div class="container_play">
-                <ul class="d_flex space_between line_height_thirty">
+                <ul class="d_flex space_around line_height_thirty">
                     <li><a href="#"><i class="fa-solid fa-shuffle action"></i></a></li>
                     <li><a href="#"><i class="fa-solid fa-backward-step action"></i></a></li>
                     <li><a href="#"><i class="fa-regular fa-circle-play action play"></i></a></li>
@@ -221,27 +222,31 @@
                 </ul>
                 <div class="time_bar text_center">
                     <span class="start_time white_text">0:25</span>
-                    <div class="bar_time start">
-                        <div class="bar_time end"></div>
+                    <div class="bar_time start">                      
+                        <div class="bar_time end relative">
+                            <div class="small_circle"></div>
+                        </div>                     
                     </div>
                     <span class="end_time white_text">4:35</span>
                 </div>
             </div>
         </div>
 
-        <div class="right_footer container_small d_flex relative">
+        <div class="right_footer container_small_side d_flex relative">
             <div class="container_footer_right ">
                 <ul class="d_flex">
-                    <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
-                    <li><a href="#"><i class="fa-solid fa-desktop"></i></a></li>
-                    <li><a href="#"><i class="fa-solid fa-volume-high"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-bars right_icon"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-desktop right_icon"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-volume-high right_icon"></i></a></li>
                 </ul>
             </div>
 
            
             <div class="time_bar_small">
                 <div class="bar_time start small">
-                    <div class="bar_time end small"></div>
+                    <div class="bar_time end small relative">
+                        <div class="small_circle"></div>
+                    </div>
                 </div>
             </div>
        
