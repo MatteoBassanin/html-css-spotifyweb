@@ -239,6 +239,12 @@ li.top_link {
 }
 
 .card:hover .hidden_play{
+    filter: none;
+    color: white;
+    z-index: 1;
+}
+
+.card:hover .hidden_play{
     display: block;
 }
 
@@ -249,6 +255,8 @@ li.top_link {
 .button:hover{
     transform: scale(1.2);   
 }
+
+
 
 .hover_effect:hover{
     color: white;
