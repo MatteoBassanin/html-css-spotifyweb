@@ -26,6 +26,15 @@ main{
     height: calc(100vh - 85px);
 }
 
+.home{
+    position: relative;
+    right: 5px;
+}
+
+.img_user{
+    margin-left: 2px;
+}
+
 li{
     list-style: none;
     margin: 10px 0;
@@ -78,6 +87,14 @@ li a{
     color: #999999;
 }
 
+ul.hidden.d_flex_column.overflow.list_playlist {
+    padding-left: 18px;
+}
+
+.little_text,.user_little{
+    text-align: super;
+    padding-left: 4px;
+}
 
 .genre{
     margin: 5px 0 ;
@@ -168,7 +185,7 @@ li.top_link {
 }
 
 .save{
-    line-height: 50px;
+    /* line-height: 50px; */
 }
 
 
